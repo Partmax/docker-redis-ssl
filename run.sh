@@ -6,4 +6,4 @@ cd ../
 docker build -t example/redis:v7.0.4 -f ./redis/Dockerfile ./
 
 # start redis with ssl see: docker-redis-entrypoint.sh
-docker-compose up -d
+docker compose up -d
