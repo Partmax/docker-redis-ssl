@@ -2,6 +2,7 @@ version: "3"
 
 volumes:
   redis:
+    driver: local
 
 services:
   redis:
@@ -13,3 +14,4 @@ services:
     volumes:
       - redis:/data
       - ./:/app
+    
